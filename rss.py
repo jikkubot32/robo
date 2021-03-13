@@ -11,7 +11,7 @@ api_id = 1086018  # Get it from my.telegram.org
 api_hash = "3c2f1a043c1a22d5b0af74b8268993d5"   # Get it from my.telegram.org
 feed_url = "https://torrentgalaxy.to/rss?magnet"  # RSS Feed URL of the site.
 bot_token = "1668902665:AAH5Nip5RlqEEZU5PdRK37UTizMtqJYM9SQ"   # Get it by creating a bot on https://t.me/botfather
-log_channel = "-1001280918281"   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
+log_channel = "-1001407732014"   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
 check_interval = 2   # Check Interval in seconds.    
 max_instances = 30   # Max parallel instance to be used.
 if os.environ.get("ENV"):   # Add a ENV in Environment Variables if you wanna configure the bot via env vars.
