@@ -14,14 +14,14 @@ feed_url = ["https://torrentgalaxy.to/rss?magnet"]  # RSS Feed URL of the site.
 #bot_token = "1668902665:AAH5Nip5RlqEEZU5PdRK37UTizMtqJYM9SQ"   # Get it by creating a bot on https://t.me/botfather
 log_channel = "-1001407732014"   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
 check_interval = 5   # Check Interval in seconds.    
-max_instances = 1   # Max parallel instance to be used.
+max_instances = 5   # Max parallel instance to be used.
 if os.environ.get("ENV"):   # Add a ENV in Environment Variables if you wanna configure the bot via env vars.
   api_id = os.environ.get("APP_ID")
   api_hash = os.environ.get("API_HASH")
   feed_url = os.environ.get("FEED_URL")
   session_name = os.environ.get("SESSION_NAME")
   log_channel = int(os.environ.get("LOG_CHANNEL", None))
-  check_interval = int(os.environ.get("INTERVAL", 5))
+  check_interval = int(os.environ.get("INTERVAL", 30))
   max_instances = int(os.environ.get("MAX_INSTANCES", 5))
 
 db = pickledb.load('rss.db', True)
