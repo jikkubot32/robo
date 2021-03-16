@@ -27,7 +27,7 @@ if os.environ.get("ENV"):   # Add a ENV in Environment Variables if you wanna co
 db = pickledb.load('rss.db', True)
 if db.get("feed_url") == None:
   db.set("feed_url", "*")
-app = Client("rss-bot", session_name=session_name, api_id=api_id, api_hash=api_hash)
+app = Client(session_name=session_name, api_id=api_id, api_hash=api_hash)
 
 def check_feed():
     FEED = feedparser.parse(feed_url)
