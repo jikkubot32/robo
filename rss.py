@@ -12,8 +12,8 @@ api_hash = ""   # Get it from my.telegram.org
 feed_url = []   # RSS Feed URL of the site.
    # Get it by creating a bot on https://t.me/botfather
 log_channel = ""   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
-check_interval = 0 # Check Interval in seconds.  
-max_instances = 0  # Max parallel instance to be used.
+check_interval = 3 # Check Interval in seconds.  
+max_instances = 1  # Max parallel instance to be used.
 if os.environ.get("ENV"):   # Add a ENV in Environment Variables if you wanna configure the bot via env vars.
   session_name= os.environ.get("SESSION_NAME")
   api_id = os.environ.get("APP_ID")
