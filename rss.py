@@ -7,8 +7,8 @@ from pyrogram.errors import FloodWait
 from apscheduler.schedulers.background import BackgroundScheduler
 
 session_name = ""
-api_id = ""   # Get it from my.telegram.org
-api_hash = ""   # Get it from my.telegram.org
+api_id = "3751415"   # Get it from my.telegram.org
+api_hash = "6547d1aaebb53eea6707945a48c4dd2f"   # Get it from my.telegram.org
 feed_url = []   # RSS Feed URL of the site.
    # Get it by creating a bot on https://t.me/botfather
 log_channel = ""   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
