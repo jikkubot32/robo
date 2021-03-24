@@ -20,7 +20,7 @@ if os.environ.get("ENV"):   # Add a ENV in Environment Variables if you wanna co
   feed_url = os.environ.get("FEED_URL")
   session_name = os.environ.get("SESSION_NAME")
   log_channel = int(os.environ.get("LOG_CHANNEL", None))
-  check_interval = int(os.environ.get("INTERVAL", 5))
+  check_interval = int(os.environ.get("INTERVAL", 30))
   max_instances = int(os.environ.get("MAX_INSTANCES", 5))
 
 db = pickledb.load('rss.db', True)
