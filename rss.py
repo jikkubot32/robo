@@ -7,11 +7,11 @@ from pyrogram.errors import FloodWait
 from apscheduler.schedulers.background import BackgroundScheduler
 
 session_name = "1AZWarzUBu2Sf9JIVZOO9DyEXt88ljyimQT2YmBwarRVOlvnm5EOXMw-_rWPc21nikKuax7QB-rSmXTa5YTx66-Q7U00EFyAs6My2CQV7lFAQOUnu6Uq-zb7nt7xRls4IWQDi2QfW98z0bI8kluPmNWS7YTbZbxX5ipuGfACSmN8ksRtKfwJ09XZMcnKHTaPfmJ5WvV8RvSOLVmMdWWNTQxc_vYiEiMJT102UkDszmZVdQZr_jbHywOsDmr6-4g4tW8ixgFR08swTnqYe1vzXg84XWkNZyyoQOoj49rXQFgtCeuWgIbphQ7SZc-O9nh4-ltXJGv6SsXnyftq2DaBbdzTjRPGpOXE="
-api_id = "3751415"   # Get it from my.telegram.org
-api_hash = "6547d1aaebb53eea6707945a48c4dd2f"   # Get it from my.telegram.org
+api_id = "1799071"   # Get it from my.telegram.org
+api_hash = "f011e39356047f59a9a31bc46300a602"   # Get it from my.telegram.org
 feed_url = "https://torrentgalaxy.to/rss?magnet&user=29"   # RSS Feed URL of the site.
 # Get it by creating a bot on https://t.me/botfather
-log_channel = "-1001336920806"   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
+log_channel = "-1001161510664"   # Telegram Channel ID where the bot is added and have write permission. You can use group ID too.
 check_interval = 5   # Check Interval in seconds.  
 max_instances = 5   # Max parallel instance to be used.
 if os.environ.get("ENV"):   # Add a ENV in Environment Variables if you wanna configure the bot via env vars.
