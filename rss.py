@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from apscheduler.schedulers.background import BackgroundScheduler
 
-session_name = "1AZWarzUBu2Sf9JIVZOO9DyEXt88ljyimQT2YmBwarRVOlvnm5EOXMw-_rWPc21nikKuax7QB-rSmXTa5YTx66-Q7U00EFyAs6My2CQV7lFAQOUnu6Uq-zb7nt7xRls4IWQDi2QfW98z0bI8kluPmNWS7YTbZbxX5ipuGfACSmN8ksRtKfwJ09XZMcnKHTaPfmJ5WvV8RvSOLVmMdWWNTQxc_vYiEiMJT102UkDszmZVdQZr_jbHywOsDmr6-4g4tW8ixgFR08swTnqYe1vzXg84XWkNZyyoQOoj49rXQFgtCeuWgIbphQ7SZc-O9nh4-ltXJGv6SsXnyftq2DaBbdzTjRPGpOXE="
+session_name = "1BJWap1sBuxh59IVLjC-UqTwiPhcFgHlUesS_z-D_5cZv_4hqamv59QwVw_4UdEEA2sZ_bo3v6DzQepyfhzMBR37NaZMJLwUNevgxtaH6xLfqUjJ9QKkRGrpgCsUjI-5VZeyDy_wxWZ_RjR1bdtuyNVPrWgN0xoVhnPgfbfBFHMyZxlvIIrD9mCJ9iXhj9YVe-GIZ5-ERDdFdD1rd6kQtbcxwuwucK6yO4HzjJd26eQg1HSlQnsiupzVvNKC-fgIvyqjy7ZE1H9na2D9dm3bdeyvfosnyFIrqSVsN22KkbLlbXplZ4Aok_dNWiH3Hr7ym-KsiB5INfqRf4bexDs5NALw80MLb2mc="
 api_id = "1799071"   # Get it from my.telegram.org
 api_hash = "f011e39356047f59a9a31bc46300a602"   # Get it from my.telegram.org
 feed_url = "https://torrentgalaxy.to/rss?magnet&user=29"   # RSS Feed URL of the site.
